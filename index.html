@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+
+<body class="bg-blue-100">
+  <header class="bg-blue-600 text-white p-2 m-1 rounded">
+    <h1 class="text-2xl font-bold text-center">Momentum</h1>
+    <a href="./htmls/inicio_sesion.html" target="_blank">
+      <button class="bg-blue-100 rounded text-black p-2 ml-[75%] hover:bg-blue-200 transition" id="iniciar">iniciar
+        sesiòn</button>
+    </a>
+    <a href="./htmls/registro.html" target="_blank">
+      <button class="bg-blue-100 rounded text-black p-2 hover:bg-blue-200 transition"
+        id="registro">Resgistrarse</button>
+    </a>
+
+  </header>
+  <form id="formulario" class="m-1">
+    <div class="bg-gray-100 flex  justify-center m-4 rounded">
+      <div class="bg-white p-6 rounded-lg shadow-lg w-96 ">
+        <form id="pedido-form " class="p-4">
+          <div class="mb-4">
+            <label for="titulo" class="block text-sm font-medium text-gray-700">titulo de la tarea</label>
+            <input type="text" id="titulo" name="titulo"
+              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-none"
+              placeholder="Nombre">
+          </div>
+          <div class="mb-4">
+            <label for="comentarios" class="block text-sm font-medium text-gray-700">Descripcion</label>
+            <textarea id="comentarios" name="comentarios" rows="3"
+              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm bg-gray-100"></textarea>
+          </div>
+          <div class="mb-4">
+            <label for="material" class="block text-sm font-medium text-gray-700">Nivel de la tarea </label>
+            <select id="material" name="material"
+              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+              <option>Pendiente</option>
+              <option>En proceso</option>
+              <option>Completada</option>
+            </select>
+          </div>
+          <div class="mb-4">
+            <label for="fecha_inicio">fecha de inicio</label>
+            <input type="date" name="fecha_inicio" id="fecha_inicio" class="w-full bg-blue-200 py-2 px-4 rounded-md hover:bg-blue-300 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+            <label for="fecha_fin">fecha de fin de la tarea</label>
+            <input type="date" name="fecha_fin" id="fecha_fin" class="w-full bg-blue-200  py-2 px-4 rounded-md hover:bg-blue-300 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+          </div>
+          <button type="button" id="subir"type="submit"
+            class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">subir tarea</button>
+        </form>
+      </div>
+    </div>
+  </form>
+
+
+  <div class="contenedor flex justify-evenly">
+    <!-- inicia tablero de pendientes -->
+    <main class="p-2">
+      <div class="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden p-4" id="">
+        <h1 class="text-2xl font-bold text-center">pendientes</h1>
+        <div class="p-2 " id="pendiente">
+
+        </div>
+      </div>
+    </main>
+    <!-- inicia tablero de EN PROGRESO -->
+    <main class="p-2">
+      <div class="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden p-4">
+        <h1 class="text-2xl font-bold text-center">En Progreso</h1>
+        <div class="p-4" id="en_progreso">
+          
+            Este es un ejemplo de una tarjeta creada con Tailwind CSS. Es sencilla, elegante y fácil de
+            personalizar.
+          </p>
+
+        </div>
+      </div>
+    </main>
+    <!-- TABLERO DE COMPLETADAS -->
+    <main class="p-2">
+      <div class="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden p-4">
+        <h1 class="text-2xl font-bold text-center">Completadas</h1>
+        <div class="p-4" id="completada">
+          
+          <p class="text-gray-600 mt-2">
+            Este es un ejemplo de una tarjeta creada con Tailwind CSS. Es sencilla, elegante y fácil de
+            personalizar.
+          </p>
+
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+<script src="./JS/app.js" defer></script>
+<script src="./JS/pintar_tarea.js"defer></script>
+</html>

@@ -1,5 +1,5 @@
 async function traerDatos(){
-  const url = 'http://localhost:3000/usuarios/1'
+  const url = 'http://localhost:3000/usuarios'
   const respuesta = await fetch(url);
   const Datos = await respuesta.json();
   console.log(Datos)

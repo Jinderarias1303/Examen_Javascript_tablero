@@ -1,11 +1,11 @@
 # Examen_Javascript
 organizacion
 
--htmls
+# htmls
 --inicio sesion
 --registro
 
--JS
+# JS
 --app.js //donde estan las funciones principales
 --inicio_sesion
 
