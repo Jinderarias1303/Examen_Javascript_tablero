@@ -14,3 +14,5 @@ db.json // base de datos
 index.html
 
 README.MD
+
+// solo hay html js esta pero tiene errores 
