@@ -1,0 +1,19 @@
+{
+  "pendientes":[
+
+  ],
+  "en_proseso":[
+
+  ],
+  "completadas":[
+
+  ],
+  "usuarios":[
+    {
+      "id":1,
+      "nombre":"jinder",
+      "correo":"jinder@gmail.com",
+      "contraseña":"123"
+    }
+  ]
+}
