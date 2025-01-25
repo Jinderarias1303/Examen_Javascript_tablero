@@ -1,14 +1,17 @@
-const formulario = document.getElementById("formulario")
+document.getElementById("formulario").addEventListener("submit", async function (e) {
+  e.preventDefault();
 
-formulario.addEventListener("click", async (e) => {
-  e.preventDefault
-
+  //llamar los elementos del formulario
   const titulo_tarea = document.getElementById("titulo").value;
   console.log(titulo_tarea)
   const descripcion = document.getElementById("comentarios").value;
+  console.log(descripcion)
   const nivel = document.getElementById("material").value;
+  console.log(nivel)
   const f_inicio = document.getElementById("fecha_inicio").value;
+  console.log(f_inicio)
   const f_fin = document.getElementById("fecha_fin").value;
+  console.log(f_fin)
 
   try {
     const url = 'http://localhost:3000/completadas';

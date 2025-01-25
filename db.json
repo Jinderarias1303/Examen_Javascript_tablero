@@ -1,40 +1,117 @@
 {
-  "pendientes":[
+  "pendientes": [
     {
-      "id":1,
-      "titulo":"jinder",
-      "descripcion":"asasasas",
-      "fecha_de_inicio":"12/01/2025",
-      "fecha_de_fin":""
-  
-  }
+      "id": "1",
+      "titulo": "jinder",
+      "descripcion": "asasasas",
+      "fecha_de_inicio": "12/01/2025",
+      "fecha_de_fin": ""
+    }
   ],
-  "en_proseso":[
+  "en_proseso": [
     {
-      "id":1,
-      "titulo":"jinder1",
-      "descripcion":"asasasaas",
-      "fecha_de_inicio":"12/01/2025",
-      "fecha_de_fin":""
-  
-  }
+      "id": "1",
+      "titulo": "jinder1",
+      "descripcion": "asasasaas",
+      "fecha_de_inicio": "12/01/2025",
+      "fecha_de_fin": ""
+    }
   ],
-  "completadas":[
+  "completadas": [
     {
-      "id":1,
-      "titulo":"jinder2",
-      "descripcion":"asasasasa",
-      "fecha_de_inicio":"12/01/2025",
-      "fecha_de_fin":"13/01/2025"
-  
-  }
+      "id": "1",
+      "titulo": "jinder2",
+      "descripcion": "asasasasa",
+      "fecha_de_inicio": "12/01/2025",
+      "fecha_de_fin": "13/01/2025"
+    },
+    {
+      "id": "0997",
+      "titulo_tarea": "",
+      "descripcion": "",
+      "nivel": "Pendiente",
+      "f_inicio": "",
+      "f_fin": ""
+    },
+    {
+      "id": "11e3",
+      "titulo_tarea": "jinder",
+      "descripcion": "adwadwad",
+      "nivel": "En proceso",
+      "f_inicio": "2025-01-24",
+      "f_fin": "2025-01-25"
+    },
+    {
+      "id": "e256",
+      "titulo_tarea": "jinder",
+      "descripcion": "adwadwad",
+      "nivel": "Pendiente",
+      "f_inicio": "2025-01-24",
+      "f_fin": "2025-01-25"
+    },
+    {
+      "id": "fb64",
+      "titulo_tarea": "jinder",
+      "descripcion": "adwadwad",
+      "nivel": "Pendiente",
+      "f_inicio": "2025-01-24",
+      "f_fin": "2025-01-25"
+    },
+    {
+      "id": "2186",
+      "titulo_tarea": "jinder",
+      "descripcion": "adwadwad",
+      "nivel": "Pendiente",
+      "f_inicio": "2025-01-24",
+      "f_fin": "2025-01-25"
+    },
+    {
+      "id": "119c",
+      "titulo_tarea": "jinder",
+      "descripcion": "adwadwad",
+      "nivel": "Pendiente",
+      "f_inicio": "2025-01-24",
+      "f_fin": "2025-01-25"
+    },
+    {
+      "id": "9120",
+      "titulo_tarea": "jinder",
+      "descripcion": "adwadwad",
+      "nivel": "Pendiente",
+      "f_inicio": "2025-01-24",
+      "f_fin": "2025-01-25"
+    },
+    {
+      "id": "a92e",
+      "titulo_tarea": "jinder",
+      "descripcion": "adwadwad",
+      "nivel": "Pendiente",
+      "f_inicio": "2025-01-24",
+      "f_fin": "2025-01-25"
+    },
+    {
+      "id": "c462",
+      "titulo_tarea": "jinder",
+      "descripcion": "adwadwad",
+      "nivel": "Pendiente",
+      "f_inicio": "2025-01-24",
+      "f_fin": "2025-01-25"
+    },
+    {
+      "id": "1f96",
+      "titulo_tarea": "jinder",
+      "descripcion": "adwadwad",
+      "nivel": "Pendiente",
+      "f_inicio": "2025-01-24",
+      "f_fin": "2025-01-25"
+    }
   ],
-  "usuarios":[
+  "usuarios": [
     {
-      "id":1,
-      "nombre":"jinder",
-      "correo":"jinder@gmail.com",
-      "contraseña":"123"
+      "id": "1",
+      "nombre": "jinder",
+      "correo": "jinder@gmail.com",
+      "contraseña": "123"
     }
   ]
 }
